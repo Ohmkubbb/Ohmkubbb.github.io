@@ -4,69 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>pre dev camp 1</title>
+    <link rel="bungza" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+    <title>มีโอ้จุ้นก๊าบก๊าบ</title>
+
 </head>
 
 <body>
 
-    <div class="centered">
-        <img class="picProfile"src="./img/S__27812130.jpg">
-        <table class="infoTable">
-            <tr>
-                <th class="topic">Name</th>
-                <td>จุ้น</td>
-            </tr>
-            <tr>
-                <th class="topic">Surname</th>
-                <td>จ้าน</td>
-            </tr>
-            <tr>
-                <th class="topic">Favourite food</th>
-                <td>salmon</td>
-            </tr>
-        </table>
-    </div>
-
-    <style>
-        .centered {
-            position : absolute;
-            background-color: blanchedalmond;
-            width : 500px;
-            text-align : center;
-            top : 50%;
-            left : 50%;
-            
-            margin-top : -250px;
-            margin-left : -250px;
-            box-shadow: 4px 4px 4px rgba(38, 38, 38, 0.1);
-
-
-        }
-        .picProfile {
-            width : 150px;
-            height : 150px; 
-            border-radius : 100px;
-            margin-top : 30px;
-        }
-        .topic {
-            padding : 15px;
-        }
-        .infoTable {
-            width : 100%;
-            margin-top : 30px;
-            margin-left : 30px;
-            margin-bottom : 20px;
-            margin-right : 30px;
-            text-align : left;
-            font-family : monospace;
-            font-size : 20px;
-        }
-
-        .centered:hover{
-            box-shadow: 4px 4px 4px rgba(38, 38, 38, 0.5);
-        }
-    </style>
+    
+    <h1>
+        <div class ="head"><h1>GROUP : มีโอ้จุ้นก๊าบก๊าบ</h1></div>
+    </h1>
+    <img class="groupPic"src="./pic/pic/group.jpg" width="300" height="300">
+    <h2>
+        <div class="block">ABOUT US</div>
+    </h2>
+    <table><tr>
+    <th><a><div class="buttonmenu"><p class="paragraph"> Thanakorn<br>6210450598 </p></div></a></th><td><img src="./pic/pic/zen.jpg" width = "auto" height = "179px"></td>
+    <th><a><div class="buttonmenu"><p class="paragraph"> Rawisara<br>6210450695 </p></div></a></th><td><img src="./pic/pic/wave.jpg" width = "auto" height = "179px"></td>
+    <th><a><div class="buttonmenu"><p class="paragraph"> Chanon<br>6210451110 </p></div></a></th><td><img src="./pic/pic/ohm.jpg" width = "auto" height = "179px"></td>
+    </tr>
+    </table>
 </body>
+
+<style>
+    .head{
+        font-size: 40px;
+        font-family: 'Kanit', sans-serif;
+        margin-top : -30px;
+        text-align: center;
+    }
+    .buttonmenu {
+        font-family: 'Kanit', sans-serif;
+        width: 315px;
+        height: 180px;
+        display: inline-block;
+        margin: 0px -3px -3px 0px;
+        text-align: center;
+        cursor: pointer;
+        overflow: hidden;
+        background-color: wheat;
+    }
+
+    .buttonmenu:hover {
+        background-color: #ffb137;
+    }
+
+    .paragraph {
+        margin-top: 10px;
+        /*background-color: blue;*/
+        line-height: 70px;
+        font-size : 150%;
+    }
+
+    body {
+        background-color: #F197A2;
+        font-family: sans-serif;
+    }
+
+    .groupPic {
+        margin-top : -40px;
+        margin-bottom: 45px;
+        text-align: center;
+        margin-left : 600px;
+    }
+
+    .block {
+        background-color: wheat;
+        width : 200px;
+        height : 100px;
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        line-height: 100px;
+        margin-top : -50px;
+    }
+
+</style>
 
 </html>

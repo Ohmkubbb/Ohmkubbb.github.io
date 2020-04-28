@@ -1,0 +1,14 @@
+html {
+    font-family : sans-serif;
+    margin: 0;
+}
+
+.color {
+    background-color: #F197A2;
+}
+
+@media only screen and (mid-width: 768px)
+{
+    
+}
+
