@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+}
+
+.Profile {
+    display: flex;
+}
+
+
+
+.button {
+    color : wheat;
+    text-align: left;
+    width : 20%;
+    height : auto;
+    cursor : pointer;
+    text-align: center;
+    padding-left : 20%;
+}
+
+.flex {
+    display : flex;
+}
+.gif {
+    text-align: right;
+    width : 250px;
+    height : auto;
+    display : inline-block;
+}
+
+.Block {
+    width : 800px;
+    height : 500px;
+    display : block;
+    background-color: dodgerblue;
+    margin-left: 70px;
+}
+
+.contentblock{
+    color : yellow;
+    text-align: center;
+    display : inline-block;
+    margin-left : 550px;
+    margin-top : 30px;
+  }
+.contentblock2 {
+    color : orange;
+    text-align: left;
+    display : block;
+    margin-top : 30px;
+    
+    
+}
+
+.inline-gif {
+    text-align: right;
+    padding-left : 600px;
+}
+
+.image{
+  width: 275px;
+  height: 175px;
+  margin-left : 30px;
+  text-align: auto;
+}
+
+.image2 {
+    width : 275px;
+    height : 175px;
+    padding-left : 115%;
+    text-align : center;
+}
