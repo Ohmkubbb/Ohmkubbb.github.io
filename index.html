@@ -12,74 +12,167 @@
 
 <body>
 
+    <div class = back><table class = top>
+        <tr align=" center">
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>29/4/2020<br>
+                    </div>
+                    </p>
+                </a></th>
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>2/5/2020
+                            <br>
+                    </div>
+                    </p>
+                </a></th>
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>9/5/2020
+                            <br>
+                    </div>
+                    </p>
+                </a></th>
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>16/5/2020<br>
+                    </div>
+                    </p>
+                </a></th>
+            <th> <a >
+                    <div class=box>
+                        <p class=font>Date <br>24/5/2020<br>
+                    </div>
+                    </p>
+                </a></th>
+        </tr>
+    </table></div>
     
+
     <h1>
-        <div class ="head"><h1>GROUP : มีโอ้จุ้นก๊าบก๊าบ</h1></div>
+        <div class="head">
+            <h1>GROUP : มีโอ้จุ้นก๊าบก๊าบ</h1>
+        </div>
     </h1>
-    <img class="groupPic"src="./pic/pic/group.jpg" width="300" height="300">
-    <h2>
+    
+    
+    
+    <table>
+        <tr>
+        <th><img class="groupPic" src="./pic/pic/group.jpg" width="300" height="300" border="8px"></th>
+    
+        <td><div class="slogan">"สุขุม เรียบร้อย <br>  พูดน้อย น่ารัก"</div></td>
+        </tr>
+    </table>
+    
+    
+    <h3>
         <div class="block">ABOUT US</div>
-    </h2>
-    <table><tr>
-    <th><a><div class="buttonmenu"><p class="paragraph"> Thanakorn<br>6210450598 </p></div></a></th><td><img src="./pic/pic/zen.jpg" width = "auto" height = "179px"></td>
-    <th><a><div class="buttonmenu"><p class="paragraph"> Rawisara<br>6210450695 </p></div></a></th><td><img src="./pic/pic/wave.jpg" width = "auto" height = "179px"></td>
-    <th><a><div class="buttonmenu"><p class="paragraph"> Chanon<br>6210451110 </p></div></a></th><td><img src="./pic/pic/ohm.jpg" width = "auto" height = "179px"></td>
-    </tr>
+    </h3>
+    
+    <table>
+        <tr>
+            <th><a href="bybzen.github.io">
+                    <div class="buttonmenu">
+                        <p class="paragraph"> Thanakorn<br>6210450598 </p>
+                    </div>
+                </a></th>
+            <td><img src="./pic/pic/zen.jpg" width="auto" height="140px"></td>
+            <th><a href="wrawisara.github.io">
+                    <div class="buttonmenu">
+                        <p class="paragraph"> Rawisara<br>6210450695 </p>
+                    </div>
+                </a></th>
+            <td><img src="./pic/pic/wave.jpg" width="auto" height="140px"></td>
+            <th><a href="ohmProfile.html">
+                    <div class="buttonmenu">
+                        <p class="paragraph"> Chanon<br>6210451110 </p>
+                    </div>
+                </a></th>
+            <td><img src="./pic/pic/ohm.jpg" width="auto" height="140px"></td>
+        </tr>
     </table>
 </body>
 
 <style>
-    .head{
+    .top{
+        margin-left: 200px;
+    }
+    .box{
+        color:black;
+        background-color: #F197a2;
+        font-family: 'Kanit', sans-serif;
+        width: 150px;
+        padding-right: -40px;
+        margin-right: 20px;
+        
+    }
+    .box :hover{
+        background-color:#f36747;
+    }
+    .head {
         font-size: 40px;
         font-family: 'Kanit', sans-serif;
-        margin-top : -30px;
+        margin-top: -30px;
         text-align: center;
+        color: #ffb137;
     }
+
     .buttonmenu {
         font-family: 'Kanit', sans-serif;
-        width: 315px;
-        height: 180px;
+        width: 280px;
+        height: 140px;
         display: inline-block;
         margin: 0px -3px -3px 0px;
         text-align: center;
         cursor: pointer;
         overflow: hidden;
-        background-color: wheat;
+        background-color: #ffb137;
     }
 
     .buttonmenu:hover {
-        background-color: #ffb137;
+        background-color: wheat;
     }
 
     .paragraph {
         margin-top: 10px;
         /*background-color: blue;*/
-        line-height: 70px;
-        font-size : 150%;
+        line-height: 60px;
+        font-size: 150%;
     }
 
     body {
-        background-color: #F197A2;
+        background-color: #4152a5;
         font-family: sans-serif;
     }
 
     .groupPic {
-        margin-top : -40px;
+        margin-top: -40px;
         margin-bottom: 45px;
         text-align: center;
-        margin-left : 600px;
+        margin-left: 400px;
+        margin-bottom: -50px;
+       border-color: #ffb137;
     }
 
     .block {
-        background-color: wheat;
-        width : 200px;
-        height : 100px;
+        background-color: #f36747;
+        width: 200px;
+        height: 100px;
         font-family: 'Kanit', sans-serif;
         text-align: center;
         line-height: 100px;
-        margin-top : -50px;
+        margin-top: 10px;
     }
-
+    .slogan{
+        
+        color: salmon;
+        font-size: 200%;
+        margin-left: 10px;
+        font-family: 'Kanit', sans-serif;
+    }
+    
 </style>
 
 </html>
