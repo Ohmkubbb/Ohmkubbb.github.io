@@ -10,12 +10,6 @@ body {
 
 
 .button {
-    /*color : wheat;
-    text-align: center;
-    width : 10px;
-    height : 100px;
-    cursor : pointer;
-    padding-left : 10px;*/
     width: 20%;
     height: 100px;
     display: inline-block;
@@ -23,11 +17,15 @@ body {
     text-align: center;
     cursor: pointer;
     overflow: hidden;
-    color : wheat;
+}
+
+.button:hover{
+    color:orange;
 }
 
 .flex {
     display : flex;
+    color : wheat;
 }
 .gif {
     text-align: right;
@@ -35,15 +33,6 @@ body {
     height : auto;
     display : inline-block;
 }
-
-.Block {
-    width : 800px;
-    height : 500px;
-    display : block;
-    background-color: dodgerblue;
-    margin-left: 70px;
-}
-
 .contentblock{
     color : yellow;
     text-align: center;
